@@ -1,4 +1,4 @@
-import {createGlobalStyle} from 'styled-components'
+import { createGlobalStyle } from "styled-components";
 
 export default createGlobalStyle`
   *{
@@ -15,5 +15,8 @@ export default createGlobalStyle`
 
   body,input, button, textarea{
     font: 600 18px Nunito, sans-serif; 
+  }
+  button{
+    outline:0;
   }
 `;
